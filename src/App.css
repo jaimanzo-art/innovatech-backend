@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef3f8;
+  color: #102033;
+}
+
+.contenedor {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f2742, #185a9d);
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin: 0 0 12px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 750px;
+  line-height: 1.6;
+}
+
+.tarjeta {
+  background: white;
+  border-radius: 18px;
+  padding: 28px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta h2 {
+  color: #0f2742;
+  margin-top: 0;
+}
+
+.estado-ok {
+  background: #e8fff1;
+  border-left: 5px solid #1e9d55;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.error {
+  background: #ffecec;
+  color: #b00020;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.producto {
+  border: 1px solid #dbe4ee;
+  border-radius: 14px;
+  padding: 20px;
+  background: #f8fbff;
+}
+
+.producto h3 {
+  margin-top: 0;
+  color: #185a9d;
+}
+
+li {
+  margin-bottom: 10px;
+}
